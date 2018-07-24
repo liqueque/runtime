@@ -15,6 +15,9 @@
 		0047CAA62106C89E0058B786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047CAA52106C89E0058B786 /* main.m */; };
 		0047CAB02106C89F0058B786 /* runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047CAAF2106C89F0058B786 /* runtimeTests.m */; };
 		0047CABB2106C89F0058B786 /* runtimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047CABA2106C89F0058B786 /* runtimeUITests.m */; };
+		0047CACA2106C8D60058B786 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047CAC92106C8D60058B786 /* People.m */; };
+		0047CACD2106C8EB0058B786 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047CACC2106C8EB0058B786 /* Bird.m */; };
+		0047CAD02106C8F70058B786 /* Monkey.m in Sources */ = {isa = PBXBuildFile; fileRef = 0047CACF2106C8F70058B786 /* Monkey.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		0047CAB62106C89F0058B786 /* runtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = runtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0047CABA2106C89F0058B786 /* runtimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = runtimeUITests.m; sourceTree = "<group>"; };
 		0047CABC2106C89F0058B786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0047CAC82106C8D60058B786 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		0047CAC92106C8D60058B786 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		0047CACB2106C8EB0058B786 /* Bird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		0047CACC2106C8EB0058B786 /* Bird.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		0047CACE2106C8F70058B786 /* Monkey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monkey.h; sourceTree = "<group>"; };
+		0047CACF2106C8F70058B786 /* Monkey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monkey.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +119,12 @@
 				0047CAA12106C89E0058B786 /* LaunchScreen.storyboard */,
 				0047CAA42106C89E0058B786 /* Info.plist */,
 				0047CAA52106C89E0058B786 /* main.m */,
+				0047CAC82106C8D60058B786 /* People.h */,
+				0047CAC92106C8D60058B786 /* People.m */,
+				0047CACB2106C8EB0058B786 /* Bird.h */,
+				0047CACC2106C8EB0058B786 /* Bird.m */,
+				0047CACE2106C8F70058B786 /* Monkey.h */,
+				0047CACF2106C8F70058B786 /* Monkey.m */,
 			);
 			path = runtime;
 			sourceTree = "<group>";
@@ -262,6 +277,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0047CAD02106C8F70058B786 /* Monkey.m in Sources */,
+				0047CACD2106C8EB0058B786 /* Bird.m in Sources */,
+				0047CACA2106C8D60058B786 /* People.m in Sources */,
 				0047CA9B2106C89E0058B786 /* ViewController.m in Sources */,
 				0047CAA62106C89E0058B786 /* main.m in Sources */,
 				0047CA982106C89E0058B786 /* AppDelegate.m in Sources */,
